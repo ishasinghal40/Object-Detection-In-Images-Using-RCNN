@@ -14,6 +14,6 @@ A Region Proposal Network (RPN) is a fully-convolutional network that simultaneo
 
 In this project, objects will be detected using the Open Images V6 Dataset implementing Faster R-CNN. Open Images is a dataset of ~9M images annotated with image-level labels, object bounding boxes, object segmentation masks, visual relationships, and localized narratives. It contains a total of 16M bounding boxes for 600 object classes on 1.9M images, making it the largest existing dataset with object location annotations. The boxes have been largely manually drawn by professional annotators to ensure accuracy and consistency. The images are very diverse and often contain complex scenes with several objects.
 
-**1.3 Objective **
+**1.3 Objective**
 
 We show that an algorithmic change - computing proposals with a deep net - leads to an elegant and effective solution, where proposal computation is nearly cost-free given the detection network’s computation. To this end, we utilize Region Proposal Networks (RPNs) that share convolutional layers with state-of-the-art object detection networks. By sharing convolutions at test-time, the marginal cost for computing proposals is small (e.g., 10ms per image).
